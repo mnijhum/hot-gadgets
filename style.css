@@ -1,61 +1,97 @@
-
-.container{
+.container {
     margin-bottom: 10px;
 }
-.buy-now-button{
+
+.buy-now-button {
     background-color: black;
     color: white;
     border-radius: 5px;
 }
-.container p{
+
+.container p {
     color: gray;
 }
-#ind li{
-    background-color: orange;
-    border-radius: 5px;
-}
-.see{
-    color:orange;
+
+.see {
+    color: orange;
     cursor: pointer;
 }
-#smartphone img{
+
+.carousel-indicators li {
+    height: 8px;
+    width: 15px;
+    border-radius: 5px;
+    border: 0;
+    opacity: 1;
+    background-color: lightgrey;
+}
+
+.carousel-indicators .active {
+    background-image: linear-gradient(to right, #FF9C35, #FFD019);
+    width: 25px;
+}
+
+#smartphone img {
     width: 300px;
     height: 250px;
 }
-.card-body{
+
+.card-body {
     text-align: center;
 }
-.card-footer{
+
+.card-footer {
     text-align: center;
     border-top: none;
     background-color: white;
 }
-.card{
+
+.card {
     border: none;
     border-color: lightgrey;
-    
+
     box-shadow: 0 0 5px 5px #F7F7F7;
     border-radius: 5px;
 }
-#laptop{
+
+#laptop {
     margin-top: 50px;
 }
-.tt{
+
+.tt {
     margin-bottom: 50px;
 }
-#shoe{
+
+#shoe {
     margin-top: 20px;
 }
-#category .card{
+
+#category .card {
     border: none;
     border-radius: 10px 50px;
 }
-.card-text{
+
+.card-text {
     font-weight: 700;
 }
-.cat{
+
+.cat {
     margin-top: 100px;
 }
-.cat img{
+
+.cat img {
     width: 100%;
+}
+
+#bottom-ind {
+    background-image: linear-gradient(to right, #FFD019, #FF9C35);
+    height: 5px;
+    width: 70px;
+    border-radius: 10px;
+    margin-left: 22%;
+
+}
+
+#bottom-ind li {
+    list-style-type: none;
 }
